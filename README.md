@@ -23,6 +23,8 @@ C:\Windows\SYSVOL\sysvol\votre-domaine.com\scripts\connexion_auto.bat
 - Clic droit utilisateur → **Propriétés**
 - Onglet **Profil** → **Script d'ouverture de session** : `connexion_auto.bat`
 
+<img width="505" height="528" alt="image" src="https://github.com/user-attachments/assets/b07992dc-b2fb-4f84-a3a8-d3eb92b82e1c" />
+
 ## 📄 Le Script
 
 ```batch
@@ -43,11 +45,6 @@ net use R: \\serveur\Responsable
 
 ### Sécurité
 Les permissions d'accès sont gérées par les **ACL** des partages Windows. Seuls les utilisateurs autorisés accèdent aux ressources.
-
-## Ajouté le script a l'ouverture de session
-
-<img width="505" height="528" alt="image" src="https://github.com/user-attachments/assets/b84033be-d614-4a30-949f-0e1ca8681ca7" />
-
 
 ## 🔧 Dépannage
 
