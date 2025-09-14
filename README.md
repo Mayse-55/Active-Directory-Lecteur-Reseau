@@ -44,6 +44,11 @@ net use R: \\serveur\Responsable
 ### Sécurité
 Les permissions d'accès sont gérées par les **ACL** des partages Windows. Seuls les utilisateurs autorisés accèdent aux ressources.
 
+## Ajouté le script a l'ouverture de session
+
+<img width="505" height="528" alt="image" src="https://github.com/user-attachments/assets/b84033be-d614-4a30-949f-0e1ca8681ca7" />
+
+
 ## 🔧 Dépannage
 
 ### Script ne se lance pas
