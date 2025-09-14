@@ -1,4 +1,4 @@
-# Script de Connexion Automatique - Active Directory
+# Montage lecteur réseau automatique - Active Directory
 
 Automatisation du mappage de lecteurs réseau selon les groupes utilisateurs dans un environnement Active Directory.
 
