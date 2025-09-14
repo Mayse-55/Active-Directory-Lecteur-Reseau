@@ -4,6 +4,18 @@ Automatisation du mappage de lecteurs réseau selon les groupes utilisateurs dan
 
 ## ⚠️ Prérequis Sécurité
 
+### 1. Configurer le réseau en PRIVÉ (solution recommandée)
+```powershell
+Set-NetConnectionProfile -NetworkCategory Private
+```
+
+**Pourquoi PRIVÉ ?**
+- **Réseau PUBLIC** : Windows bloque la découverte réseau et le partage (sécurité max)
+- **Réseau PRIVÉ** : Windows autorise les partages réseau (réseaux de confiance)
+- **Impact** : En PUBLIC, les commandes `net use` peuvent être bloquées par le pare-feu
+- **Environnement AD** : Le réseau DOIT être en PRIVÉ pour le bon fonctionnement
+
+### 2. Désactiver l'héritage des permissions
 **IMPORTANT** : Désactiver l'héritage des permissions sur les partages pour éviter les blocages :
 1. Clic droit sur le dossier partagé → **Propriétés**
 2. Onglet **Sécurité** → **Avancé**  
