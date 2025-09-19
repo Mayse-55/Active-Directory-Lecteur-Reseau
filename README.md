@@ -65,7 +65,7 @@ Pour **le Groupe Impots**
 
 net use I: \\serveur\Impots 
 ```
-ou (Facultative plus compliqué)
+ou **(Facultative plus compliqué)**
 ```
 @echo off
 
