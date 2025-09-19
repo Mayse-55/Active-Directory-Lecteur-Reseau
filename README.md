@@ -45,7 +45,7 @@ C:\Windows\SYSVOL\sysvol\votre-domaine.com\scripts\connexion_auto.bat
 
 ## 📄 Le Script
 
-Pour Paul Ouri (Administrateur)
+Pour **Paul Ouri (Administrateur)**
 ```batch
 @echo off
 
@@ -53,13 +53,13 @@ net use F: \\serveur\Finances
 net use I: \\serveur\Impots 
 net use R: \\serveur\Responsable
 ```
-Pour le Groupe Finances
+Pour le **Groupe Finances**
 ```batch
 @echo off
 
 net use F: \\serveur\Finances
 ```
-Pour le Groupe Impots
+Pour **le Groupe Impots**
 ```batch
 @echo off
 
