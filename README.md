@@ -65,25 +65,6 @@ Pour **le Groupe Impots**
 
 net use I: \\serveur\Impots 
 ```
-ou **(Facultative plus compliqué)**
-```
-@echo off
-
-net use * /delete /y
-
-if /i "%username%"=="pouri" (
-    net use F: \\serveur\Finances
-    net use I: \\serveur\Impots
-    net use R: \\serveur\Responsable
-    goto :fin
-)
-
-whoami /groups | find /i "Finance" >nul
-if %errorlevel%==0 net use F: \\serveur\Finances
-
-whoami /groups | find /i "Impots" >nul
-if %errorlevel%==0 net use I: \\serveur\Impots
-```
 
 ## ⚙️ Configuration
 
