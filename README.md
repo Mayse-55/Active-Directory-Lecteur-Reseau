@@ -1,5 +1,7 @@
 # Montage lecteur réseau automatique - Active Directory
 
+![AD Health](https://img.shields.io/badge/AD%20Health-OK-brightgreen?style=flat-square)
+
 Automatisation du mappage de lecteurs réseau selon les groupes utilisateurs dans un environnement Active Directory.
 
 ## ⚠️ Prérequis Sécurité
