@@ -1,6 +1,6 @@
 # Montage lecteur réseau automatique - Active Directory
 
-[![Active Directory]](https://fr.wikipedia.org/wiki/Active_Directory)
+[![Active Directory](https://img.shields.io/badge/Active%20Directory-Operational%20Status-brightgreen)](https://fr.wikipedia.org/wiki/Active_Directory)
 
 Automatisation du mappage de lecteurs réseau selon les groupes utilisateurs dans un environnement Active Directory.
 
